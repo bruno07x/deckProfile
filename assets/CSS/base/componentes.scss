@@ -1,0 +1,15 @@
+// NOTE: Adicao das variaveis
+@import "../helpers/variables.scss";
+// NOTE: Classe do botao para adicionar novos elementos
+.buttonAdc{
+    background: $tomSecundaria;
+    padding: 10px;
+    border-radius: 5%;
+    color: $tomBranco;
+}
+.buttonAdc:hover{
+    background: $tomBranco;
+    padding: 10px;
+    border-radius: 5%;
+    color: $tomSecundaria;
+}

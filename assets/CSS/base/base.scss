@@ -1,0 +1,13 @@
+@import "../helpers/mixins.scss";
+@import "../helpers/variables.scss";
+// NOTE: Mudança de tamanho de todos icones
+.icon__tamanhoPadrao{
+    height: 100px;
+    width: 100px;
+}
+.alinhamentoConteudo{
+    margin: 0 auto;
+}
+.brackgroundGeral{
+    background: linear-gradient(to left, $tomTerciario to)
+}
