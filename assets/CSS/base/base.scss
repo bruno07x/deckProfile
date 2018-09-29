@@ -1,13 +1,4 @@
-@import "../helpers/mixins.scss";
+// NOTE: Inclusao dos arquivos helpers, que serao usados na base pois na inclusao da main.scss sera incluido somente a pasta base e layout
 @import "../helpers/variables.scss";
-// NOTE: Mudança de tamanho de todos icones
-.icon__tamanhoPadrao{
-    height: 100px;
-    width: 100px;
-}
-.alinhamentoConteudo{
-    margin: 0 auto;
-}
-.brackgroundGeral{
-    background: linear-gradient(to left, $tomTerciario to)
-}
+@import "../helpers/mixins.scss";
+@import "../helpers/helpers.scss";
